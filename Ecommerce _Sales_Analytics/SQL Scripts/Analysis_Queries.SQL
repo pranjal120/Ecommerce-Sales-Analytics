@@ -196,25 +196,26 @@
 
 
 -- Did revenue increase or decrease compared to the previous month?
--- With MonthlyRevenue AS
--- (
--- SELECT DATE_FORMAT(O.Order_Date, '%Y-%M') AS Month,
--- SUM(O.quantity*P.Price) AS Revenue
--- FROM Orders O
--- JOIN Products P
--- ON O.Product_ID=P.Product_ID
--- GROUP BY month
--- )
--- SELECT 
--- Month,
--- Revenue,
--- LAG(Revenue) OVER( 
--- ORDER BY Month) AS Previous_Revenue,
--- ROUND(
--- (Revenue-LAG(Revenue) OVER(Order BY Month))*100/LAG(Revenue) OVER(Order BY Month), 
--- 2
--- ) AS Growth_Percentage
--- FROM MonthlyRevenue;
+WITH 
+MonthwiseRevenue AS
+(
+SELECT
+DATE_FORMAT(O.Order_Date, '%Y-%m') AS MonthDate, SUM(P.Price*O.Quantity) AS Revenue
+FROM Products P
+JOIN Orders O 
+ON P.Product_ID=O.Product_ID
+Group BY MonthDate
+ORDER BY MonthDate ASC),
+Revenue_Previous AS(
+SELECT
+MonthDate, Revenue,
+LAG(Revenue) OVER (ORDER BY MonthDate) AS Previous_Month
+FROM MonthwiseRevenue)
+SELECT
+MonthDate, Revenue,
+round(
+(Revenue-Previous_Month)*100/Previous_month, 2) AS Growth
+FROM Revenue_Previous;
 
 
 
