@@ -1,0 +1,24 @@
+-- CREATE DATABASE ecommerce_analysis;
+-- USE ecommerce_analysis;
+-- SHOW databases;
+-- CREATE TABLE Customers(
+-- Customer_ID INT PRIMARY KEY,
+-- Customer_Name VARCHAR(100),
+-- City VARCHAR(50),
+-- State VARCHAR(50)
+-- );
+
+-- CREATE TABLE Products(
+-- Product_ID INT PRIMARY KEY,
+-- Product_Name VARCHAR(100),
+-- Category VARCHAR(50),
+-- Price DECIMAL(10,2)
+-- );
+
+-- CREATE TABLE Orders(
+-- Order_ID INT PRIMARY KEY,
+-- Customer_ID INT,
+-- Product_ID INT,
+-- Order_Date DATE,
+-- Quantity int
+-- );

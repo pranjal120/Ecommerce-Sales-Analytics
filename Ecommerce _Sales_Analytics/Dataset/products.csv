@@ -1,0 +1,21 @@
+Product_ID,Product_Name,Category,Price
+101,Laptop,Electronics,55000
+102,Smartphone,Electronics,25000
+103,Monitor,Electronics,12000
+104,Keyboard,Accessories,1500
+105,Mouse,Accessories,800
+106,Headphones,Accessories,2500
+107,Office Chair,Furniture,7000
+108,Study Table,Furniture,9000
+109,Air Purifier,Home Appliances,11000
+110,Smart Watch,Electronics,5000
+111,Tablet,Electronics,18000
+112,Printer,Electronics,9000
+113,Webcam,Accessories,2500
+114,Speaker,Accessories,3500
+115,Power Bank,Accessories,1500
+116,Bookshelf,Furniture,6000
+117,Desk Lamp,Furniture,1200
+118,Vacuum Cleaner,Home Appliances,8500
+119,Microwave,Home Appliances,14000
+120,Water Purifier,Home Appliances,16000

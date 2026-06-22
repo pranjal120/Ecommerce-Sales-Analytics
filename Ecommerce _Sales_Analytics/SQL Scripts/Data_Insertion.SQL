@@ -1,0 +1,23 @@
+-- LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/orders.csv"
+-- INTO TABLE Orders
+-- FIELDS TERMINATED BY ','
+-- OPTIONALLY ENCLOSED BY '"'
+-- LINES TERMINATED BY '\n'  -- Changed from \r\n to \n
+-- IGNORE 1 ROWS;
+-- SELECT*FROM Orders;
+
+-- LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/products.csv"
+-- INTO TABLE Products
+-- FIELDS TERMINATED BY ','
+-- OPTIONALLY ENCLOSED BY '"'
+-- LINES TERMINATED BY '\n'  -- Changed from \r\n to \n
+-- IGNORE 1 ROWS;
+-- SELECT * FROM Products;
+
+-- LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/customers.csv"
+-- INTO TABLE Customers
+-- FIELDS TERMINATED BY ','
+-- OPTIONALLY ENCLOSED BY '"'
+-- LINES TERMINATED BY '\n'  -- Changed from \r\n to \n
+-- IGNORE 1 ROWS;
+-- SELECT * FROM Customers;

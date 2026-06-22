@@ -1,0 +1,51 @@
+Customer_ID,Customer_Name,City,State
+1,Customer_1,Indore,Madhya Pradesh
+2,Customer_2,Bhopal,Madhya Pradesh
+3,Customer_3,Delhi,Delhi
+4,Customer_4,Mumbai,Maharashtra
+5,Customer_5,Pune,Maharashtra
+6,Customer_6,Ahmedabad,Gujarat
+7,Customer_7,Surat,Gujarat
+8,Customer_8,Jaipur,Rajasthan
+9,Customer_9,Bengaluru,Karnataka
+10,Customer_10,Hyderabad,Telangana
+11,Customer_11,Lucknow,Uttar Pradesh
+12,Customer_12,Kanpur,Uttar Pradesh
+13,Customer_13,Patna,Bihar
+14,Customer_14,Ranchi,Jharkhand
+15,Customer_15,Kolkata,West Bengal
+16,Customer_16,Chandigarh,Chandigarh
+17,Customer_17,Noida,Uttar Pradesh
+18,Customer_18,Gurugram,Haryana
+19,Customer_19,Chennai,Tamil Nadu
+20,Customer_20,Ludhiana,Punjab
+21,Customer_21,Indore,Madhya Pradesh
+22,Customer_22,Bhopal,Madhya Pradesh
+23,Customer_23,Delhi,Delhi
+24,Customer_24,Mumbai,Maharashtra
+25,Customer_25,Pune,Maharashtra
+26,Customer_26,Ahmedabad,Gujarat
+27,Customer_27,Surat,Gujarat
+28,Customer_28,Jaipur,Rajasthan
+29,Customer_29,Bengaluru,Karnataka
+30,Customer_30,Hyderabad,Telangana
+31,Customer_31,Lucknow,Uttar Pradesh
+32,Customer_32,Kanpur,Uttar Pradesh
+33,Customer_33,Patna,Bihar
+34,Customer_34,Ranchi,Jharkhand
+35,Customer_35,Kolkata,West Bengal
+36,Customer_36,Chandigarh,Chandigarh
+37,Customer_37,Noida,Uttar Pradesh
+38,Customer_38,Gurugram,Haryana
+39,Customer_39,Chennai,Tamil Nadu
+40,Customer_40,Ludhiana,Punjab
+41,Customer_41,Indore,Madhya Pradesh
+42,Customer_42,Bhopal,Madhya Pradesh
+43,Customer_43,Delhi,Delhi
+44,Customer_44,Mumbai,Maharashtra
+45,Customer_45,Pune,Maharashtra
+46,Customer_46,Ahmedabad,Gujarat
+47,Customer_47,Surat,Gujarat
+48,Customer_48,Jaipur,Rajasthan
+49,Customer_49,Bengaluru,Karnataka
+50,Customer_50,Hyderabad,Telangana
