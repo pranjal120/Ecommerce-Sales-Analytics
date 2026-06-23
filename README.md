@@ -41,8 +41,7 @@ The Orders table links Customers and Products through foreign keys.
 16. Customer Segmentation
 17. Pareto Analysis
 18. RFM Analysis
-19. Cohort Analysis
-20. State-wise Market Share Analysis
+19. State-wise Market Share Analysis
 
 ## Key Skills Demonstrated
 
