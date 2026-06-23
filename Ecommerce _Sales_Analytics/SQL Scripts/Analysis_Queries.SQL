@@ -291,8 +291,8 @@
 --     c.Customer_Name,
 
 --     DATEDIFF(
---         MAX(o.Order_Date),
---         MIN(o.Order_Date)
+--         CURRENT_DATE(),
+--         MAX(o.Order_Date)
 --     ) AS Recency,
 
 --     COUNT(o.Order_ID) AS Frequency,
